@@ -16,6 +16,11 @@
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
   </properties>
+  <properties>
+    <sonar.projectKey>SantiagoMerlo_java-projects</sonar.projectKey>
+    <sonar.organization>santiagomerlo-1</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
   <!-- add GitHub rajendarreddyj maven-repo to repositories -->
   <repositories>
     <repository>
